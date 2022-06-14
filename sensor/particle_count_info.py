@@ -27,7 +27,7 @@ class ParticleData(HouseInfo):
             elif rec > 100.00:
                 particulate["bad"] +=1
 
-        
+        return particulate
 
 
 
