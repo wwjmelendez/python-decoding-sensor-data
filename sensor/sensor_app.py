@@ -23,7 +23,7 @@ house_info = HouseInfo(data)
 
 test_area = 1
 
-recs = HouseInfo.get_data_by_area('id', rec_area=test_area)
+recs = house_info.get_data_by_area("id", rec_area=test_area)
 
 print("\nHouse sensor records for area {} = {}".format(test_area, len(recs)))
 
