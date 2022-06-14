@@ -22,6 +22,8 @@ class HouseInfo:
                 field_data.append(record[field])
         return field_data
 
+    
+
 
     
 
