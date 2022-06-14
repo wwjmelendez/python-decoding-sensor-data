@@ -1,5 +1,4 @@
 from datetime import date, datetime
-from time import strftime
 class HouseInfo:
     def __init__(self, data):
         self.data = data
